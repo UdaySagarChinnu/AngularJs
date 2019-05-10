@@ -1,0 +1,142 @@
+body{
+    padding:10px;
+}
+.logo img{ width: 70%;}
+.store-name{
+    text-align: center;
+    font-size: 3em;
+}
+
+.socio-icon{
+    text-align: end;
+    font-size: 2em
+}
+nav li{
+    width:200px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.main-content{
+    margin-top:10px;
+    text-align: justify;
+    font-size: 11;
+}
+h5{
+    text-align: left;
+}
+h6{
+    text-align: left;
+}
+
+.main-content p{
+    font-size: 0.8em;
+    text-align:left;
+}
+.book-repeat{
+   
+    margin-left:20px;
+    box-shadow: 1px 1px 4px 1px rgba(173,173,173,1);
+}
+.col-repeat{
+    /*border:1px solid #ccc;*/
+    margin:10px 0px 5px 10px;
+    padding:10px;
+    min-height: 300px !important;
+    box-shadow: 0px 4px 5px -1px rgba(173,173,173,1);
+}
+.col-repeats{
+    border:1px solid rgb(175, 241, 68);
+    box-shadow: 0px 4px 5px -1px rgb(83, 214, 7);
+}
+.col-repeats1{
+    border:1px solid rgb(175, 241, 68);
+    box-shadow: 0px 4px 5px -1px rgb(83, 214, 7);
+}
+
+.book-repeat h2{
+    text-align: center
+}
+.side-bar{
+    margin:0px 0px 5px 5px;
+    padding:5px;
+}
+.side-text{ /*border:1px solid grey;*/margin:10px;padding:5px; box-shadow: 0px 4px 5px -1px rgba(173,173,173,1);}
+.side-text h4,.side-text h5,.side-text h6{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+ 
+.icon{
+    display:none;
+}
+@media only screen and (max-width: 500px) {
+    .logo {
+        display:none
+    }
+    .app-name{
+        font-size: 0.5em;
+        text-align: center;
+    }
+    .icons{
+        display:block;
+        font-size: 2em
+    }
+    .socio-icon{
+        display:none;
+    }
+    .menu{
+        display:none;
+    }
+
+} 
+@media only screen and (min-width: 500px) {
+    
+    .icons{
+        display:none;
+    }
+    .socio-icon{
+        display:block;
+    }
+
+} 
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+
+
+
